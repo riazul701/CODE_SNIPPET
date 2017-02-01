@@ -1,0 +1,1 @@
+## how to create pagination for url with parameters in codeigniter?
