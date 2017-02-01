@@ -1,0 +1,8 @@
+/* File Location: 125_project_root/stylesheet/custom/student_grid.css (CSS File) */
+
+#grid-table th {
+   text-align: left;
+}
+#db_message {
+   text-align: center;
+}
