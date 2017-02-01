@@ -1,0 +1,1 @@
+CREATE TABLE `abc`.`user` ( `id` INT(20) NOT NULL AUTO_INCREMENT , `user_name` VARCHAR(100) NOT NULL , `password` VARCHAR(50) NOT NULL , PRIMARY KEY (`id`) , UNIQUE (`user_name`) ) ENGINE = InnoDB;
