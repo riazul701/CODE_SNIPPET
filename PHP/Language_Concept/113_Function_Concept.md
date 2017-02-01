@@ -1,0 +1,1 @@
+* file_get_contents(): Work with GET request in case of API. Get file contents as string.
