@@ -1,0 +1,1 @@
+## Use one controller method into another controller
