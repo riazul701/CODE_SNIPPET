@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+    function cancel_chalan_confirmation() {
+        var answer = confirm("Confirm Delete Chalan")
+        if (answer) {
+            document.getElementById('cancel_chalan_id').submit();
+        }
+        else { 
+            return false;
+        }
+    }
+</script>
+  </head>
+  <body>
+    <form action="<?php echo site_url('chalan/cancel_chalan'); ?>" method="post" id="cancel_chalan_id" onsubmit="event.preventDefault(); return cancel_chalan_confirmation()">
+        <input type="text" name="chalan_id" value="<?php echo $order_no; ?>" hidden />
+        <button type="submit" style="position: relative; top:95px;">Cancel Chalan</button>
+    </form>
+  </body>
+</html>
