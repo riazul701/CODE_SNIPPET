@@ -1,0 +1,1 @@
+## Remove index.php from url CodeIgniter 
