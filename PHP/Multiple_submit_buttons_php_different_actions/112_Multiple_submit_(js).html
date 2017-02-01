@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <title>Multiple submit buttons php different actions using javascript</title>
+  <script type="text/javascript">
+    function submitForm(action)
+    {
+        document.getElementById('customer_add_form').action = action;
+        document.getElementById('customer_add_form').submit();
+    }
+</script>
+</head>
+<body>
+  <form class="form-horizontal" action="page_default.php" method="post" id="customer_add_form">
+    <input type="text" name="customer_name" class="form-control" id="customer_name" placeholder="Customer Name">
+    <input type="submit" style="display: none;" />
+    <input type="button" onclick="submitForm('page1.php')" value="submit 1" />
+    <input type="button" onclick="submitForm('page2.php')" value="submit 2" />
+  </form>
+</body>
+</html>
