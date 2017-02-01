@@ -1,0 +1,1 @@
+## Ignore files from Git Repository
