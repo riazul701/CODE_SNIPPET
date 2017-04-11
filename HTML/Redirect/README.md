@@ -1,1 +1,0 @@
-HTML Redirect Code Snippet
