@@ -1,3 +1,5 @@
+**Error file log: PHP Warning:  Unknown: open_basedir restriction in effect. File(/var/cpanel/php/sessions/ea-php55) is not within the allowed path(s): (/home:/tmp:/usr) in Unknown on line 0**
+
 **A PHP Error was encountered**
 
 Severity: Warning
