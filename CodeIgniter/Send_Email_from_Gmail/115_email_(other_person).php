@@ -1,6 +1,6 @@
 <?php
 // There is problem with this example
-$from_email = 'bongooonline@gmail.com';
+$from_email = 'test-mail@gmail.com';
 $subject = 'Invoice';
 $message="$homepage";
 //configure email settings
