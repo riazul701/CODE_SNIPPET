@@ -10,7 +10,7 @@ public function send_email($email_to, $email_subject, $email_message) {
             'smtp_port' => 465,
             'smtp_crypto' => 'ssl',
             'smtp_user' => 'test@domain-name.com',
-            'smtp_pass' => 'pass1234',
+            'smtp_pass' => 'your-password',
             'charset'   => 'utf-8',
             'mailpath' => '/usr/sbin/sendmail',
             'charset'   => 'iso-8859-1',
